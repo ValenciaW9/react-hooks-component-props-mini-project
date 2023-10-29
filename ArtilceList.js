@@ -1,14 +1,11 @@
 import React from "react";
-import About from "/About";
-import ArticleList from "./ArticleList";
-import Header from "./Header";
+import Article from "./Article";
 
-
-const ArticleList = ({ posts, Article }) => {
+const ArticleList = ({ posts }) => {
   return (
     <main>
       {posts.map((post, index) => (
-        <Article key={index} post={post} />
+        <Article key={index} article={post} />
       ))}
     </main>
   );

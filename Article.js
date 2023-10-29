@@ -1,8 +1,6 @@
 import React from "react";
 
-const Article = ({ article }) => {
-  const { title, date, preview } = article;
-
+const Article = ({ title, date, preview }) => {
   const calculateReadingTime = () => {
     const readingTime = Math.ceil(preview.length / 200); // Assuming 200 words per minute
     const coffeeCups = Math.ceil(readingTime / 5);
