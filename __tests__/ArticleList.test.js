@@ -16,7 +16,7 @@ const posts = [
     preview: "Passing props is never passé",
   },
   {
-    id: 3,
+    id: 3, 
     title: "Function Components vs Class Components",
     date: "December 10, 2020",
     preview: "React, meet OOJS.",
